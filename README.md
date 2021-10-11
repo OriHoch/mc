@@ -1,3 +1,13 @@
+# CWM Minio Client
+
+This is a fork of Minio client with some specific changes for CWM
+
+To build the binaries for a release, run the following:
+
+```
+MC_RELEASE=CWM.YYYY-MM-DDTHH-MM-SSZ buildscripts/build.sh
+```
+
 # MinIO Client Quickstart Guide
 [![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Go Report Card](https://goreportcard.com/badge/minio/mc)](https://goreportcard.com/report/minio/mc) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/mc.svg?maxAge=604800)](https://hub.docker.com/r/minio/mc/) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/minio/mc/blob/master/LICENSE)
 
